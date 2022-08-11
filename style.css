@@ -28,7 +28,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -326,10 +325,15 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 8px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+}
+
+.nav {
+    list-style-type: none;
 }
 
 .nav > li a:hover,
@@ -369,6 +373,9 @@ a:hover {
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+    }
+    .navbar {
+        position: relative;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -655,8 +662,14 @@ a, p {
     color: #1C1C1C;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-bloc-text {
