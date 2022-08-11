@@ -28,6 +28,7 @@ a:hover {
 }
 
 .bloc {
+    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -325,7 +326,6 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
-    margin-right: 8px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -349,7 +349,6 @@ a:hover {
 .navbar-toggle:hover {
     background: transparent!important;
 }
-
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
@@ -667,7 +666,6 @@ a:link {
 }
 
 .container {
-    max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
 }
